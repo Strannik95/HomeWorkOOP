@@ -2,32 +2,16 @@ package OOP1;
 
 public class Main {
     public static void main(String[] args) {
-        Human maksim = new Human();
-        maksim.yearOfBirth = 2022 - 35;
-        maksim.name = "Максим";
-        maksim.town = "Минск";
-        maksim.job = "бренд-менеджер";
+        Human maksim = new Human(2022 - 35,"Максим","Минск","бренд-менеджер");
         maksim.human();
 
-        Human anya = new Human();
-        anya.yearOfBirth = 2022 - 29;
-        anya.name = "Аня";
-        anya.town = "москва";
-        anya.job = "методист образовательных программ";
+        Human anya = new Human(2022 - 29,"Аня","Москва","методист образовательных программ");
         anya.human();
 
-        Human katya = new Human();
-        katya.yearOfBirth = 2022 - 28;
-        katya.name = "Катя";
-        katya.town = "Калининград";
-        katya.job = "продакт-менеджер";
+        Human katya = new Human(2022 - 28,"Катя","Калининград","продакт-менеджер");
         katya.human();
 
-        Human artem = new Human();
-        artem.yearOfBirth = 2022 - 27;
-        artem.name = "Артем";
-        artem.town = "Москва";
-        artem.job = "директор по развитию бизнеса";
+        Human artem = new Human(2022 - 27,"Артем", "Москва", "директор по развитию бизнеса");
         artem.human();
     }
 }
